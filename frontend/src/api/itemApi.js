@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://backend-nqmc.vercel.app/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://it-22575876-wmt.vercel.app/api",
 });
 
 export const getItems = () => API.get("/items");
